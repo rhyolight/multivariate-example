@@ -4,7 +4,7 @@ import csv
 from datetime import date, timedelta, datetime
 
 DATA_DIR = os.path.join(os.path.dirname(os.path.realpath(__file__)), "data")
-DAYS_BACK = 365 * 2
+START_DATE = datetime.strptime("2011/01/03", "%Y/%m/%d").date()
 CACHE_TEMPLATE = "{STATE}-{CITY}-{YYYYMMDD}.json"
 STATE = "IL"
 CITY = "Chicago"
@@ -38,7 +38,7 @@ def pop_date(debris_counts):
 def convert_data():
   debris_file = os.path.join(DATA_DIR, "debris.json")
   now = date.today()
-  date_step = now - timedelta(days=DAYS_BACK)
+  date_step = START_DATE
 
   # Open up the debris JSON and read into a dict.
   with open(debris_file, "r") as df:
@@ -55,7 +55,6 @@ def convert_data():
 
     while date_step < now:
       # Read input weather data for this day.
-      date_step = date_step + timedelta(days=1)
       date_string = date_step.strftime("%Y%m%d")
       filename = CACHE_TEMPLATE.replace("{YYYYMMDD}", date_string) \
                                .replace("{STATE}", STATE) \
@@ -67,10 +66,11 @@ def convert_data():
         weather = extract_weather_data(weather_data)
         # Get input debris call count for this day by stepping through the data
         # until we get to the right day.
-        debris_date = None
-        while len(debris_counts) > 1 and (debris_date is None or debris_date < date_step):
+        if len(debris_counts) == 0: break
+        debris_date, count = pop_date(debris_counts)
+        while debris_date < date_step:
           debris_date, count = pop_date(debris_counts)
-
+          
         writer.writerow([
           date_step.strftime("%Y-%m-%d"),
           weather["snow"],
@@ -79,6 +79,7 @@ def convert_data():
           weather["precip"],
           count
         ])
+      date_step = date_step + timedelta(days=1)
 
 
 
