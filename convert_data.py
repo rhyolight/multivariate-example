@@ -14,15 +14,16 @@ OUTPUT = "weather_debris_data.csv"
 
 def extract_weather_data(data):
   summary = data["history"]["dailysummary"][0]
-  rain = summary["rain"]
-  snow = summary["snow"]
-  maxwspdm = summary["maxwspdm"]
+  hail = summary["hail"]
+  mintempm = float(summary["mintempm"])
+  maxtempm = float(summary["maxtempm"])
+  meanwindspdm = summary["meanwindspdm"]
   precipm = summary["precipm"]
   if precipm == "T": precipm = 0.00
   return dict({
-    "rain": rain,
-    "snow": snow,
-    "maxwspd": maxwspdm,
+    "hail": hail,
+    "tempvariation": maxtempm - mintempm,
+    "meanwindspdm": meanwindspdm,
     "precip": precipm
   })
 
@@ -49,8 +50,8 @@ def convert_data():
   # Prime the output
   with open(OUTPUT, "w") as f:
     writer = csv.writer(f)
-    writer.writerow(["timestamp", "snow", "rain", "maxwspd", "precip", "debris"])
-    writer.writerow(["datetime", "int", "int", "float", "float", "int"])
+    writer.writerow(["timestamp", "tempvariation", "hail", "meanwindspdm", "precip", "debris"])
+    writer.writerow(["datetime", "float", "int", "float", "float", "int"])
     writer.writerow(["T", "", "", "", "", ""])
 
     while date_step < now:
@@ -73,9 +74,9 @@ def convert_data():
           
         writer.writerow([
           date_step.strftime("%Y-%m-%d"),
-          weather["snow"],
-          weather["rain"],
-          weather["maxwspd"],
+          weather["tempvariation"],
+          weather["hail"],
+          weather["meanwindspdm"],
           weather["precip"],
           count
         ])
