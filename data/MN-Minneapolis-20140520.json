@@ -1,0 +1,785 @@
+
+{
+  "response": {
+  "version":"0.1",
+  "termsofService":"http://www.wunderground.com/weather/api/d/terms.html",
+  "features": {
+  "history": 1
+  }
+	}
+		,
+	"history": {
+		"date": {
+		"pretty": "May 20, 2014",
+		"year": "2014",
+		"mon": "05",
+		"mday": "20",
+		"hour": "12",
+		"min": "00",
+		"tzname": "America/Chicago"
+		},
+		"utcdate": {
+		"pretty": "May 20, 2014",
+		"year": "2014",
+		"mon": "05",
+		"mday": "20",
+		"hour": "17",
+		"min": "00",
+		"tzname": "UTC"
+		},
+		"observations": [
+		{
+		"date": {
+		"pretty": "12:02 AM CDT on May 20, 2014",
+		"year": "2014",
+		"mon": "05",
+		"mday": "20",
+		"hour": "00",
+		"min": "02",
+		"tzname": "America/Chicago"
+		},
+		"utcdate": {
+		"pretty": "5:02 AM GMT on May 20, 2014",
+		"year": "2014",
+		"mon": "05",
+		"mday": "20",
+		"hour": "05",
+		"min": "02",
+		"tzname": "UTC"
+		},
+		"tempm":"12.8", "tempi":"55.0","dewptm":"10.6", "dewpti":"51.1","hum":"86","wspdm":"14.8", "wspdi":"9.2","wgustm":"-9999.0", "wgusti":"-9999.0","wdird":"120","wdire":"ESE","vism":"8.0", "visi":"5.0","pressurem":"1007.3", "pressurei":"29.75","windchillm":"-999", "windchilli":"-999","heatindexm":"-9999", "heatindexi":"-9999","precipm":"-9999.00", "precipi":"-9999.00","conds":"Overcast","icon":"cloudy","fog":"0","rain":"0","snow":"0","hail":"0","thunder":"0","tornado":"0","metar":"SPECI KMIC 200502Z AUTO 12008KT 5SM BR SCT012 BKN035 OVC043 13/11 A2975 RMK AO2 T01280106" },
+		{
+		"date": {
+		"pretty": "1:53 AM CDT on May 20, 2014",
+		"year": "2014",
+		"mon": "05",
+		"mday": "20",
+		"hour": "01",
+		"min": "53",
+		"tzname": "America/Chicago"
+		},
+		"utcdate": {
+		"pretty": "6:53 AM GMT on May 20, 2014",
+		"year": "2014",
+		"mon": "05",
+		"mday": "20",
+		"hour": "06",
+		"min": "53",
+		"tzname": "UTC"
+		},
+		"tempm":"12.2", "tempi":"54.0","dewptm":"10.0", "dewpti":"50.0","hum":"86","wspdm":"0.0", "wspdi":"0.0","wgustm":"-9999.0", "wgusti":"-9999.0","wdird":"0","wdire":"North","vism":"6.4", "visi":"4.0","pressurem":"1007.6", "pressurei":"29.76","windchillm":"-999", "windchilli":"-999","heatindexm":"-9999", "heatindexi":"-9999","precipm":"-9999.00", "precipi":"-9999.00","conds":"Partly Cloudy","icon":"partlycloudy","fog":"0","rain":"0","snow":"0","hail":"0","thunder":"0","tornado":"0","metar":"METAR KMIC 200653Z AUTO 00000KT 4SM BR FEW060 12/10 A2975 RMK AO2 SLP076 T01220100" },
+		{
+		"date": {
+		"pretty": "2:46 AM CDT on May 20, 2014",
+		"year": "2014",
+		"mon": "05",
+		"mday": "20",
+		"hour": "02",
+		"min": "46",
+		"tzname": "America/Chicago"
+		},
+		"utcdate": {
+		"pretty": "7:46 AM GMT on May 20, 2014",
+		"year": "2014",
+		"mon": "05",
+		"mday": "20",
+		"hour": "07",
+		"min": "46",
+		"tzname": "UTC"
+		},
+		"tempm":"11.7", "tempi":"53.1","dewptm":"10.0", "dewpti":"50.0","hum":"89","wspdm":"7.4", "wspdi":"4.6","wgustm":"-9999.0", "wgusti":"-9999.0","wdird":"160","wdire":"SSE","vism":"4.0", "visi":"2.5","pressurem":"1007.3", "pressurei":"29.75","windchillm":"-999", "windchilli":"-999","heatindexm":"-9999", "heatindexi":"-9999","precipm":"-9999.00", "precipi":"-9999.00","conds":"Scattered Clouds","icon":"partlycloudy","fog":"0","rain":"0","snow":"0","hail":"0","thunder":"0","tornado":"0","metar":"SPECI KMIC 200746Z AUTO 16004KT 2 1/2SM BR SCT050 12/10 A2975 RMK AO2 T01170100" },
+		{
+		"date": {
+		"pretty": "2:53 AM CDT on May 20, 2014",
+		"year": "2014",
+		"mon": "05",
+		"mday": "20",
+		"hour": "02",
+		"min": "53",
+		"tzname": "America/Chicago"
+		},
+		"utcdate": {
+		"pretty": "7:53 AM GMT on May 20, 2014",
+		"year": "2014",
+		"mon": "05",
+		"mday": "20",
+		"hour": "07",
+		"min": "53",
+		"tzname": "UTC"
+		},
+		"tempm":"11.1", "tempi":"52.0","dewptm":"9.4", "dewpti":"48.9","hum":"89","wspdm":"7.4", "wspdi":"4.6","wgustm":"-9999.0", "wgusti":"-9999.0","wdird":"150","wdire":"SSE","vism":"4.0", "visi":"2.5","pressurem":"1007.6", "pressurei":"29.76","windchillm":"-999", "windchilli":"-999","heatindexm":"-9999", "heatindexi":"-9999","precipm":"-9999.00", "precipi":"-9999.00","conds":"Mostly Cloudy","icon":"mostlycloudy","fog":"0","rain":"0","snow":"0","hail":"0","thunder":"0","tornado":"0","metar":"METAR KMIC 200753Z AUTO 15004KT 2 1/2SM BR BKN050 11/09 A2975 RMK AO2 SLP076 T01110094" },
+		{
+		"date": {
+		"pretty": "3:10 AM CDT on May 20, 2014",
+		"year": "2014",
+		"mon": "05",
+		"mday": "20",
+		"hour": "03",
+		"min": "10",
+		"tzname": "America/Chicago"
+		},
+		"utcdate": {
+		"pretty": "8:10 AM GMT on May 20, 2014",
+		"year": "2014",
+		"mon": "05",
+		"mday": "20",
+		"hour": "08",
+		"min": "10",
+		"tzname": "UTC"
+		},
+		"tempm":"11.7", "tempi":"53.1","dewptm":"10.0", "dewpti":"50.0","hum":"89","wspdm":"7.4", "wspdi":"4.6","wgustm":"-9999.0", "wgusti":"-9999.0","wdird":"140","wdire":"SE","vism":"4.8", "visi":"3.0","pressurem":"1007.3", "pressurei":"29.75","windchillm":"-999", "windchilli":"-999","heatindexm":"-9999", "heatindexi":"-9999","precipm":"-9999.00", "precipi":"-9999.00","conds":"Mostly Cloudy","icon":"mostlycloudy","fog":"0","rain":"0","snow":"0","hail":"0","thunder":"0","tornado":"0","metar":"SPECI KMIC 200810Z AUTO 14004KT 3SM BR BKN049 12/10 A2975 RMK AO2 T01170100" },
+		{
+		"date": {
+		"pretty": "3:29 AM CDT on May 20, 2014",
+		"year": "2014",
+		"mon": "05",
+		"mday": "20",
+		"hour": "03",
+		"min": "29",
+		"tzname": "America/Chicago"
+		},
+		"utcdate": {
+		"pretty": "8:29 AM GMT on May 20, 2014",
+		"year": "2014",
+		"mon": "05",
+		"mday": "20",
+		"hour": "08",
+		"min": "29",
+		"tzname": "UTC"
+		},
+		"tempm":"11.1", "tempi":"52.0","dewptm":"10.0", "dewpti":"50.0","hum":"93","wspdm":"5.6", "wspdi":"3.5","wgustm":"-9999.0", "wgusti":"-9999.0","wdird":"150","wdire":"SSE","vism":"4.0", "visi":"2.5","pressurem":"1007.0", "pressurei":"29.74","windchillm":"-999", "windchilli":"-999","heatindexm":"-9999", "heatindexi":"-9999","precipm":"-9999.00", "precipi":"-9999.00","conds":"Scattered Clouds","icon":"partlycloudy","fog":"0","rain":"0","snow":"0","hail":"0","thunder":"0","tornado":"0","metar":"SPECI KMIC 200829Z AUTO 15003KT 2 1/2SM BR SCT049 11/10 A2974 RMK AO2 T01110100" },
+		{
+		"date": {
+		"pretty": "4:03 AM CDT on May 20, 2014",
+		"year": "2014",
+		"mon": "05",
+		"mday": "20",
+		"hour": "04",
+		"min": "03",
+		"tzname": "America/Chicago"
+		},
+		"utcdate": {
+		"pretty": "9:03 AM GMT on May 20, 2014",
+		"year": "2014",
+		"mon": "05",
+		"mday": "20",
+		"hour": "09",
+		"min": "03",
+		"tzname": "UTC"
+		},
+		"tempm":"10.6", "tempi":"51.1","dewptm":"9.4", "dewpti":"48.9","hum":"92","wspdm":"0.0", "wspdi":"0.0","wgustm":"-9999.0", "wgusti":"-9999.0","wdird":"0","wdire":"North","vism":"1.2", "visi":"0.8","pressurem":"1007.3", "pressurei":"29.75","windchillm":"-999", "windchilli":"-999","heatindexm":"-9999", "heatindexi":"-9999","precipm":"-9999.00", "precipi":"-9999.00","conds":"Clear","icon":"clear","fog":"0","rain":"0","snow":"0","hail":"0","thunder":"0","tornado":"0","metar":"SPECI KMIC 200903Z AUTO 00000KT 3/4SM BR CLR 11/09 A2975 RMK AO2 T01060094" },
+		{
+		"date": {
+		"pretty": "4:12 AM CDT on May 20, 2014",
+		"year": "2014",
+		"mon": "05",
+		"mday": "20",
+		"hour": "04",
+		"min": "12",
+		"tzname": "America/Chicago"
+		},
+		"utcdate": {
+		"pretty": "9:12 AM GMT on May 20, 2014",
+		"year": "2014",
+		"mon": "05",
+		"mday": "20",
+		"hour": "09",
+		"min": "12",
+		"tzname": "UTC"
+		},
+		"tempm":"10.0", "tempi":"50.0","dewptm":"8.9", "dewpti":"48.0","hum":"93","wspdm":"0.0", "wspdi":"0.0","wgustm":"-9999.0", "wgusti":"-9999.0","wdird":"0","wdire":"North","vism":"1.6", "visi":"1.0","pressurem":"1007.7", "pressurei":"29.76","windchillm":"-999", "windchilli":"-999","heatindexm":"-9999", "heatindexi":"-9999","precipm":"-9999.00", "precipi":"-9999.00","conds":"Clear","icon":"clear","fog":"0","rain":"0","snow":"0","hail":"0","thunder":"0","tornado":"0","metar":"SPECI KMIC 200912Z AUTO 00000KT 1SM BR CLR 10/09 A2976 RMK AO2 T01000089" },
+		{
+		"date": {
+		"pretty": "4:31 AM CDT on May 20, 2014",
+		"year": "2014",
+		"mon": "05",
+		"mday": "20",
+		"hour": "04",
+		"min": "31",
+		"tzname": "America/Chicago"
+		},
+		"utcdate": {
+		"pretty": "9:31 AM GMT on May 20, 2014",
+		"year": "2014",
+		"mon": "05",
+		"mday": "20",
+		"hour": "09",
+		"min": "31",
+		"tzname": "UTC"
+		},
+		"tempm":"10.0", "tempi":"50.0","dewptm":"8.9", "dewpti":"48.0","hum":"93","wspdm":"9.3", "wspdi":"5.8","wgustm":"-9999.0", "wgusti":"-9999.0","wdird":"320","wdire":"NW","vism":"1.2", "visi":"0.8","pressurem":"1007.7", "pressurei":"29.76","windchillm":"-999", "windchilli":"-999","heatindexm":"-9999", "heatindexi":"-9999","precipm":"-9999.00", "precipi":"-9999.00","conds":"Mist","icon":"hazy","fog":"0","rain":"0","snow":"0","hail":"0","thunder":"0","tornado":"0","metar":"SPECI KMIC 200931Z AUTO 32005KT 3/4SM BR VV017 10/09 A2976 RMK AO2 T01000089" },
+		{
+		"date": {
+		"pretty": "4:53 AM CDT on May 20, 2014",
+		"year": "2014",
+		"mon": "05",
+		"mday": "20",
+		"hour": "04",
+		"min": "53",
+		"tzname": "America/Chicago"
+		},
+		"utcdate": {
+		"pretty": "9:53 AM GMT on May 20, 2014",
+		"year": "2014",
+		"mon": "05",
+		"mday": "20",
+		"hour": "09",
+		"min": "53",
+		"tzname": "UTC"
+		},
+		"tempm":"10.0", "tempi":"50.0","dewptm":"9.4", "dewpti":"48.9","hum":"96","wspdm":"0.0", "wspdi":"0.0","wgustm":"-9999.0", "wgusti":"-9999.0","wdird":"0","wdire":"North","vism":"1.6", "visi":"1.0","pressurem":"1008.2", "pressurei":"29.78","windchillm":"-999", "windchilli":"-999","heatindexm":"-9999", "heatindexi":"-9999","precipm":"-9999.00", "precipi":"-9999.00","conds":"Clear","icon":"clear","fog":"0","rain":"0","snow":"0","hail":"0","thunder":"0","tornado":"0","metar":"METAR KMIC 200953Z AUTO 00000KT 1SM BR CLR 10/09 A2977 RMK AO2 SLP082 T01000094" },
+		{
+		"date": {
+		"pretty": "4:56 AM CDT on May 20, 2014",
+		"year": "2014",
+		"mon": "05",
+		"mday": "20",
+		"hour": "04",
+		"min": "56",
+		"tzname": "America/Chicago"
+		},
+		"utcdate": {
+		"pretty": "9:56 AM GMT on May 20, 2014",
+		"year": "2014",
+		"mon": "05",
+		"mday": "20",
+		"hour": "09",
+		"min": "56",
+		"tzname": "UTC"
+		},
+		"tempm":"10.0", "tempi":"50.0","dewptm":"9.4", "dewpti":"48.9","hum":"96","wspdm":"0.0", "wspdi":"0.0","wgustm":"-9999.0", "wgusti":"-9999.0","wdird":"0","wdire":"North","vism":"1.2", "visi":"0.8","pressurem":"1007.7", "pressurei":"29.76","windchillm":"-999", "windchilli":"-999","heatindexm":"-9999", "heatindexi":"-9999","precipm":"-9999.00", "precipi":"-9999.00","conds":"Mist","icon":"hazy","fog":"0","rain":"0","snow":"0","hail":"0","thunder":"0","tornado":"0","metar":"SPECI KMIC 200956Z AUTO 00000KT 3/4SM BR VV016 10/09 A2976 RMK AO2 T01000094" },
+		{
+		"date": {
+		"pretty": "5:18 AM CDT on May 20, 2014",
+		"year": "2014",
+		"mon": "05",
+		"mday": "20",
+		"hour": "05",
+		"min": "18",
+		"tzname": "America/Chicago"
+		},
+		"utcdate": {
+		"pretty": "10:18 AM GMT on May 20, 2014",
+		"year": "2014",
+		"mon": "05",
+		"mday": "20",
+		"hour": "10",
+		"min": "18",
+		"tzname": "UTC"
+		},
+		"tempm":"11.1", "tempi":"52.0","dewptm":"9.4", "dewpti":"48.9","hum":"89","wspdm":"9.3", "wspdi":"5.8","wgustm":"-9999.0", "wgusti":"-9999.0","wdird":"350","wdire":"North","vism":"1.2", "visi":"0.8","pressurem":"1008.4", "pressurei":"29.78","windchillm":"-999", "windchilli":"-999","heatindexm":"-9999", "heatindexi":"-9999","precipm":"-9999.00", "precipi":"-9999.00","conds":"Mist","icon":"hazy","fog":"0","rain":"0","snow":"0","hail":"0","thunder":"0","tornado":"0","metar":"SPECI KMIC 201018Z AUTO 35005KT 3/4SM BR VV013 11/09 A2978 RMK AO2 T01110094" },
+		{
+		"date": {
+		"pretty": "5:25 AM CDT on May 20, 2014",
+		"year": "2014",
+		"mon": "05",
+		"mday": "20",
+		"hour": "05",
+		"min": "25",
+		"tzname": "America/Chicago"
+		},
+		"utcdate": {
+		"pretty": "10:25 AM GMT on May 20, 2014",
+		"year": "2014",
+		"mon": "05",
+		"mday": "20",
+		"hour": "10",
+		"min": "25",
+		"tzname": "UTC"
+		},
+		"tempm":"11.1", "tempi":"52.0","dewptm":"10.0", "dewpti":"50.0","hum":"93","wspdm":"9.3", "wspdi":"5.8","wgustm":"-9999.0", "wgusti":"-9999.0","wdird":"10","wdire":"North","vism":"2.4", "visi":"1.5","pressurem":"1008.4", "pressurei":"29.78","windchillm":"-999", "windchilli":"-999","heatindexm":"-9999", "heatindexi":"-9999","precipm":"-9999.00", "precipi":"-9999.00","conds":"Overcast","icon":"cloudy","fog":"0","rain":"0","snow":"0","hail":"0","thunder":"0","tornado":"0","metar":"SPECI KMIC 201025Z AUTO 01005KT 1 1/2SM BR OVC013 11/10 A2978 RMK AO2 T01110100" },
+		{
+		"date": {
+		"pretty": "5:53 AM CDT on May 20, 2014",
+		"year": "2014",
+		"mon": "05",
+		"mday": "20",
+		"hour": "05",
+		"min": "53",
+		"tzname": "America/Chicago"
+		},
+		"utcdate": {
+		"pretty": "10:53 AM GMT on May 20, 2014",
+		"year": "2014",
+		"mon": "05",
+		"mday": "20",
+		"hour": "10",
+		"min": "53",
+		"tzname": "UTC"
+		},
+		"tempm":"11.1", "tempi":"52.0","dewptm":"10.6", "dewpti":"51.1","hum":"97","wspdm":"0.0", "wspdi":"0.0","wgustm":"-9999.0", "wgusti":"-9999.0","wdird":"0","wdire":"North","vism":"2.0", "visi":"1.2","pressurem":"1008.8", "pressurei":"29.79","windchillm":"-999", "windchilli":"-999","heatindexm":"-9999", "heatindexi":"-9999","precipm":"-9999.00", "precipi":"-9999.00","conds":"Overcast","icon":"cloudy","fog":"0","rain":"0","snow":"0","hail":"0","thunder":"0","tornado":"0","metar":"METAR KMIC 201053Z AUTO 00000KT 1 1/4SM BR OVC009 11/11 A2978 RMK AO2 SLP088 T01110106" },
+		{
+		"date": {
+		"pretty": "6:53 AM CDT on May 20, 2014",
+		"year": "2014",
+		"mon": "05",
+		"mday": "20",
+		"hour": "06",
+		"min": "53",
+		"tzname": "America/Chicago"
+		},
+		"utcdate": {
+		"pretty": "11:53 AM GMT on May 20, 2014",
+		"year": "2014",
+		"mon": "05",
+		"mday": "20",
+		"hour": "11",
+		"min": "53",
+		"tzname": "UTC"
+		},
+		"tempm":"11.7", "tempi":"53.1","dewptm":"10.6", "dewpti":"51.1","hum":"93","wspdm":"0.0", "wspdi":"0.0","wgustm":"-9999.0", "wgusti":"-9999.0","wdird":"0","wdire":"North","vism":"2.0", "visi":"1.2","pressurem":"1009.1", "pressurei":"29.80","windchillm":"-999", "windchilli":"-999","heatindexm":"-9999", "heatindexi":"-9999","precipm":"-9999.00", "precipi":"-9999.00","conds":"Overcast","icon":"cloudy","fog":"0","rain":"0","snow":"0","hail":"0","thunder":"0","tornado":"0","metar":"METAR KMIC 201153Z 00000KT 1 1/4SM BR OVC006 12/11 A2979 RMK AO2 SLP091 70183 T01170106 10122 20100 51016" },
+		{
+		"date": {
+		"pretty": "7:53 AM CDT on May 20, 2014",
+		"year": "2014",
+		"mon": "05",
+		"mday": "20",
+		"hour": "07",
+		"min": "53",
+		"tzname": "America/Chicago"
+		},
+		"utcdate": {
+		"pretty": "12:53 PM GMT on May 20, 2014",
+		"year": "2014",
+		"mon": "05",
+		"mday": "20",
+		"hour": "12",
+		"min": "53",
+		"tzname": "UTC"
+		},
+		"tempm":"12.2", "tempi":"54.0","dewptm":"11.1", "dewpti":"52.0","hum":"93","wspdm":"0.0", "wspdi":"0.0","wgustm":"-9999.0", "wgusti":"-9999.0","wdird":"0","wdire":"North","vism":"2.4", "visi":"1.5","pressurem":"1009.7", "pressurei":"29.82","windchillm":"-999", "windchilli":"-999","heatindexm":"-9999", "heatindexi":"-9999","precipm":"-9999.00", "precipi":"-9999.00","conds":"Overcast","icon":"cloudy","fog":"0","rain":"0","snow":"0","hail":"0","thunder":"0","tornado":"0","metar":"METAR KMIC 201253Z 00000KT 1 1/2SM BR OVC005 12/11 A2981 RMK AO2 SLP097 T01220111" },
+		{
+		"date": {
+		"pretty": "8:11 AM CDT on May 20, 2014",
+		"year": "2014",
+		"mon": "05",
+		"mday": "20",
+		"hour": "08",
+		"min": "11",
+		"tzname": "America/Chicago"
+		},
+		"utcdate": {
+		"pretty": "1:11 PM GMT on May 20, 2014",
+		"year": "2014",
+		"mon": "05",
+		"mday": "20",
+		"hour": "13",
+		"min": "11",
+		"tzname": "UTC"
+		},
+		"tempm":"12.8", "tempi":"55.0","dewptm":"11.1", "dewpti":"52.0","hum":"89","wspdm":"0.0", "wspdi":"0.0","wgustm":"-9999.0", "wgusti":"-9999.0","wdird":"0","wdire":"North","vism":"2.4", "visi":"1.5","pressurem":"1009.4", "pressurei":"29.81","windchillm":"-999", "windchilli":"-999","heatindexm":"-9999", "heatindexi":"-9999","precipm":"-9999.00", "precipi":"-9999.00","conds":"Overcast","icon":"cloudy","fog":"0","rain":"0","snow":"0","hail":"0","thunder":"0","tornado":"0","metar":"SPECI KMIC 201311Z 00000KT 1 1/2SM BR OVC004 13/11 A2981 RMK AO2 T01280111" },
+		{
+		"date": {
+		"pretty": "8:39 AM CDT on May 20, 2014",
+		"year": "2014",
+		"mon": "05",
+		"mday": "20",
+		"hour": "08",
+		"min": "39",
+		"tzname": "America/Chicago"
+		},
+		"utcdate": {
+		"pretty": "1:39 PM GMT on May 20, 2014",
+		"year": "2014",
+		"mon": "05",
+		"mday": "20",
+		"hour": "13",
+		"min": "39",
+		"tzname": "UTC"
+		},
+		"tempm":"13.3", "tempi":"55.9","dewptm":"11.7", "dewpti":"53.1","hum":"90","wspdm":"0.0", "wspdi":"0.0","wgustm":"-9999.0", "wgusti":"-9999.0","wdird":"0","wdire":"North","vism":"2.4", "visi":"1.5","pressurem":"1009.7", "pressurei":"29.82","windchillm":"-999", "windchilli":"-999","heatindexm":"-9999", "heatindexi":"-9999","precipm":"-9999.00", "precipi":"-9999.00","conds":"Overcast","icon":"cloudy","fog":"0","rain":"0","snow":"0","hail":"0","thunder":"0","tornado":"0","metar":"SPECI KMIC 201339Z 00000KT 1 1/2SM BR OVC005 13/12 A2982 RMK AO2 T01330117" },
+		{
+		"date": {
+		"pretty": "8:53 AM CDT on May 20, 2014",
+		"year": "2014",
+		"mon": "05",
+		"mday": "20",
+		"hour": "08",
+		"min": "53",
+		"tzname": "America/Chicago"
+		},
+		"utcdate": {
+		"pretty": "1:53 PM GMT on May 20, 2014",
+		"year": "2014",
+		"mon": "05",
+		"mday": "20",
+		"hour": "13",
+		"min": "53",
+		"tzname": "UTC"
+		},
+		"tempm":"13.3", "tempi":"55.9","dewptm":"11.7", "dewpti":"53.1","hum":"90","wspdm":"0.0", "wspdi":"0.0","wgustm":"-9999.0", "wgusti":"-9999.0","wdird":"0","wdire":"North","vism":"2.4", "visi":"1.5","pressurem":"1009.9", "pressurei":"29.83","windchillm":"-999", "windchilli":"-999","heatindexm":"-9999", "heatindexi":"-9999","precipm":"-9999.00", "precipi":"-9999.00","conds":"Overcast","icon":"cloudy","fog":"0","rain":"0","snow":"0","hail":"0","thunder":"0","tornado":"0","metar":"METAR KMIC 201353Z 00000KT 1 1/2SM BR OVC005 13/12 A2982 RMK AO2 SLP099 T01330117" },
+		{
+		"date": {
+		"pretty": "9:14 AM CDT on May 20, 2014",
+		"year": "2014",
+		"mon": "05",
+		"mday": "20",
+		"hour": "09",
+		"min": "14",
+		"tzname": "America/Chicago"
+		},
+		"utcdate": {
+		"pretty": "2:14 PM GMT on May 20, 2014",
+		"year": "2014",
+		"mon": "05",
+		"mday": "20",
+		"hour": "14",
+		"min": "14",
+		"tzname": "UTC"
+		},
+		"tempm":"13.9", "tempi":"57.0","dewptm":"11.7", "dewpti":"53.1","hum":"87","wspdm":"0.0", "wspdi":"0.0","wgustm":"-9999.0", "wgusti":"-9999.0","wdird":"0","wdire":"North","vism":"3.2", "visi":"2.0","pressurem":"1010.0", "pressurei":"29.83","windchillm":"-999", "windchilli":"-999","heatindexm":"-9999", "heatindexi":"-9999","precipm":"-9999.00", "precipi":"-9999.00","conds":"Overcast","icon":"cloudy","fog":"0","rain":"0","snow":"0","hail":"0","thunder":"0","tornado":"0","metar":"SPECI KMIC 201414Z 00000KT 2SM BR OVC005 14/12 A2983 RMK AO2 T01390117" },
+		{
+		"date": {
+		"pretty": "9:53 AM CDT on May 20, 2014",
+		"year": "2014",
+		"mon": "05",
+		"mday": "20",
+		"hour": "09",
+		"min": "53",
+		"tzname": "America/Chicago"
+		},
+		"utcdate": {
+		"pretty": "2:53 PM GMT on May 20, 2014",
+		"year": "2014",
+		"mon": "05",
+		"mday": "20",
+		"hour": "14",
+		"min": "53",
+		"tzname": "UTC"
+		},
+		"tempm":"14.4", "tempi":"57.9","dewptm":"12.2", "dewpti":"54.0","hum":"87","wspdm":"0.0", "wspdi":"0.0","wgustm":"-9999.0", "wgusti":"-9999.0","wdird":"0","wdire":"North","vism":"4.0", "visi":"2.5","pressurem":"1011.0", "pressurei":"29.86","windchillm":"-999", "windchilli":"-999","heatindexm":"-9999", "heatindexi":"-9999","precipm":"-9999.00", "precipi":"-9999.00","conds":"Overcast","icon":"cloudy","fog":"0","rain":"0","snow":"0","hail":"0","thunder":"0","tornado":"0","metar":"METAR KMIC 201453Z 00000KT 2 1/2SM BR OVC007 14/12 A2985 RMK AO2 SLP110 T01440122 53020" },
+		{
+		"date": {
+		"pretty": "10:00 AM CDT on May 20, 2014",
+		"year": "2014",
+		"mon": "05",
+		"mday": "20",
+		"hour": "10",
+		"min": "00",
+		"tzname": "America/Chicago"
+		},
+		"utcdate": {
+		"pretty": "3:00 PM GMT on May 20, 2014",
+		"year": "2014",
+		"mon": "05",
+		"mday": "20",
+		"hour": "15",
+		"min": "00",
+		"tzname": "UTC"
+		},
+		"tempm":"14.4", "tempi":"57.9","dewptm":"12.2", "dewpti":"54.0","hum":"87","wspdm":"5.6", "wspdi":"3.5","wgustm":"-9999.0", "wgusti":"-9999.0","wdird":"240","wdire":"WSW","vism":"4.8", "visi":"3.0","pressurem":"1010.7", "pressurei":"29.85","windchillm":"-999", "windchilli":"-999","heatindexm":"-9999", "heatindexi":"-9999","precipm":"-9999.00", "precipi":"-9999.00","conds":"Overcast","icon":"cloudy","fog":"0","rain":"0","snow":"0","hail":"0","thunder":"0","tornado":"0","metar":"SPECI KMIC 201500Z 24003KT 3SM BR OVC007 14/12 A2985 RMK AO2 T01440122" },
+		{
+		"date": {
+		"pretty": "10:53 AM CDT on May 20, 2014",
+		"year": "2014",
+		"mon": "05",
+		"mday": "20",
+		"hour": "10",
+		"min": "53",
+		"tzname": "America/Chicago"
+		},
+		"utcdate": {
+		"pretty": "3:53 PM GMT on May 20, 2014",
+		"year": "2014",
+		"mon": "05",
+		"mday": "20",
+		"hour": "15",
+		"min": "53",
+		"tzname": "UTC"
+		},
+		"tempm":"15.6", "tempi":"60.1","dewptm":"12.8", "dewpti":"55.0","hum":"83","wspdm":"7.4", "wspdi":"4.6","wgustm":"-9999.0", "wgusti":"-9999.0","wdird":"0","wdire":"Variable","vism":"4.8", "visi":"3.0","pressurem":"1011.1", "pressurei":"29.86","windchillm":"-999", "windchilli":"-999","heatindexm":"-9999", "heatindexi":"-9999","precipm":"-9999.00", "precipi":"-9999.00","conds":"Haze","icon":"hazy","fog":"0","rain":"0","snow":"0","hail":"0","thunder":"0","tornado":"0","metar":"METAR KMIC 201553Z VRB04KT 3SM HZ OVC008 16/13 A2986 RMK AO2 SLP111 T01560128" },
+		{
+		"date": {
+		"pretty": "11:37 AM CDT on May 20, 2014",
+		"year": "2014",
+		"mon": "05",
+		"mday": "20",
+		"hour": "11",
+		"min": "37",
+		"tzname": "America/Chicago"
+		},
+		"utcdate": {
+		"pretty": "4:37 PM GMT on May 20, 2014",
+		"year": "2014",
+		"mon": "05",
+		"mday": "20",
+		"hour": "16",
+		"min": "37",
+		"tzname": "UTC"
+		},
+		"tempm":"16.7", "tempi":"62.1","dewptm":"12.8", "dewpti":"55.0","hum":"78","wspdm":"5.6", "wspdi":"3.5","wgustm":"-9999.0", "wgusti":"-9999.0","wdird":"250","wdire":"WSW","vism":"6.4", "visi":"4.0","pressurem":"1011.4", "pressurei":"29.87","windchillm":"-999", "windchilli":"-999","heatindexm":"-9999", "heatindexi":"-9999","precipm":"-9999.00", "precipi":"-9999.00","conds":"Haze","icon":"hazy","fog":"0","rain":"0","snow":"0","hail":"0","thunder":"0","tornado":"0","metar":"SPECI KMIC 201637Z 25003KT 4SM HZ OVC010 17/13 A2987 RMK AO2 T01670128" },
+		{
+		"date": {
+		"pretty": "11:53 AM CDT on May 20, 2014",
+		"year": "2014",
+		"mon": "05",
+		"mday": "20",
+		"hour": "11",
+		"min": "53",
+		"tzname": "America/Chicago"
+		},
+		"utcdate": {
+		"pretty": "4:53 PM GMT on May 20, 2014",
+		"year": "2014",
+		"mon": "05",
+		"mday": "20",
+		"hour": "16",
+		"min": "53",
+		"tzname": "UTC"
+		},
+		"tempm":"16.7", "tempi":"62.1","dewptm":"12.8", "dewpti":"55.0","hum":"78","wspdm":"0.0", "wspdi":"0.0","wgustm":"-9999.0", "wgusti":"-9999.0","wdird":"0","wdire":"North","vism":"6.4", "visi":"4.0","pressurem":"1011.6", "pressurei":"29.88","windchillm":"-999", "windchilli":"-999","heatindexm":"-9999", "heatindexi":"-9999","precipm":"-9999.00", "precipi":"-9999.00","conds":"Haze","icon":"hazy","fog":"0","rain":"0","snow":"0","hail":"0","thunder":"0","tornado":"0","metar":"METAR KMIC 201653Z 00000KT 4SM HZ OVC011 17/13 A2987 RMK AO2 SLP116 T01670128" },
+		{
+		"date": {
+		"pretty": "12:12 PM CDT on May 20, 2014",
+		"year": "2014",
+		"mon": "05",
+		"mday": "20",
+		"hour": "12",
+		"min": "12",
+		"tzname": "America/Chicago"
+		},
+		"utcdate": {
+		"pretty": "5:12 PM GMT on May 20, 2014",
+		"year": "2014",
+		"mon": "05",
+		"mday": "20",
+		"hour": "17",
+		"min": "12",
+		"tzname": "UTC"
+		},
+		"tempm":"17.8", "tempi":"64.0","dewptm":"13.3", "dewpti":"55.9","hum":"75","wspdm":"5.6", "wspdi":"3.5","wgustm":"-9999.0", "wgusti":"-9999.0","wdird":"250","wdire":"WSW","vism":"6.4", "visi":"4.0","pressurem":"1011.4", "pressurei":"29.87","windchillm":"-999", "windchilli":"-999","heatindexm":"-9999", "heatindexi":"-9999","precipm":"-9999.00", "precipi":"-9999.00","conds":"Haze","icon":"hazy","fog":"0","rain":"0","snow":"0","hail":"0","thunder":"0","tornado":"0","metar":"SPECI KMIC 201712Z 25003KT 4SM HZ SCT011 18/13 A2987 RMK AO2 T01780133" },
+		{
+		"date": {
+		"pretty": "12:53 PM CDT on May 20, 2014",
+		"year": "2014",
+		"mon": "05",
+		"mday": "20",
+		"hour": "12",
+		"min": "53",
+		"tzname": "America/Chicago"
+		},
+		"utcdate": {
+		"pretty": "5:53 PM GMT on May 20, 2014",
+		"year": "2014",
+		"mon": "05",
+		"mday": "20",
+		"hour": "17",
+		"min": "53",
+		"tzname": "UTC"
+		},
+		"tempm":"18.3", "tempi":"64.9","dewptm":"12.8", "dewpti":"55.0","hum":"70","wspdm":"5.6", "wspdi":"3.5","wgustm":"-9999.0", "wgusti":"-9999.0","wdird":"310","wdire":"NW","vism":"9.7", "visi":"6.0","pressurem":"1011.6", "pressurei":"29.88","windchillm":"-999", "windchilli":"-999","heatindexm":"-9999", "heatindexi":"-9999","precipm":"-9999.00", "precipi":"-9999.00","conds":"Haze","icon":"hazy","fog":"0","rain":"0","snow":"0","hail":"0","thunder":"0","tornado":"0","metar":"METAR KMIC 201753Z 31003KT 6SM HZ CLR 18/13 A2987 RMK AO2 SLP116 T01830128 10189 20117 51006" },
+		{
+		"date": {
+		"pretty": "1:53 PM CDT on May 20, 2014",
+		"year": "2014",
+		"mon": "05",
+		"mday": "20",
+		"hour": "13",
+		"min": "53",
+		"tzname": "America/Chicago"
+		},
+		"utcdate": {
+		"pretty": "6:53 PM GMT on May 20, 2014",
+		"year": "2014",
+		"mon": "05",
+		"mday": "20",
+		"hour": "18",
+		"min": "53",
+		"tzname": "UTC"
+		},
+		"tempm":"21.1", "tempi":"70.0","dewptm":"12.8", "dewpti":"55.0","hum":"59","wspdm":"0.0", "wspdi":"0.0","wgustm":"-9999.0", "wgusti":"-9999.0","wdird":"0","wdire":"North","vism":"11.3", "visi":"7.0","pressurem":"1011.1", "pressurei":"29.86","windchillm":"-999", "windchilli":"-999","heatindexm":"-9999", "heatindexi":"-9999","precipm":"-9999.00", "precipi":"-9999.00","conds":"Clear","icon":"clear","fog":"0","rain":"0","snow":"0","hail":"0","thunder":"0","tornado":"0","metar":"METAR KMIC 201853Z 00000KT 7SM CLR 21/13 A2986 RMK AO2 SLP111 T02110128" },
+		{
+		"date": {
+		"pretty": "2:53 PM CDT on May 20, 2014",
+		"year": "2014",
+		"mon": "05",
+		"mday": "20",
+		"hour": "14",
+		"min": "53",
+		"tzname": "America/Chicago"
+		},
+		"utcdate": {
+		"pretty": "7:53 PM GMT on May 20, 2014",
+		"year": "2014",
+		"mon": "05",
+		"mday": "20",
+		"hour": "19",
+		"min": "53",
+		"tzname": "UTC"
+		},
+		"tempm":"22.2", "tempi":"72.0","dewptm":"12.8", "dewpti":"55.0","hum":"55","wspdm":"0.0", "wspdi":"0.0","wgustm":"-9999.0", "wgusti":"-9999.0","wdird":"0","wdire":"North","vism":"16.1", "visi":"10.0","pressurem":"1010.3", "pressurei":"29.84","windchillm":"-999", "windchilli":"-999","heatindexm":"-9999", "heatindexi":"-9999","precipm":"-9999.00", "precipi":"-9999.00","conds":"Clear","icon":"clear","fog":"0","rain":"0","snow":"0","hail":"0","thunder":"0","tornado":"0","metar":"METAR KMIC 201953Z 00000KT 10SM CLR 22/13 A2984 RMK AO2 SLP103 T02220128" },
+		{
+		"date": {
+		"pretty": "4:53 PM CDT on May 20, 2014",
+		"year": "2014",
+		"mon": "05",
+		"mday": "20",
+		"hour": "16",
+		"min": "53",
+		"tzname": "America/Chicago"
+		},
+		"utcdate": {
+		"pretty": "9:53 PM GMT on May 20, 2014",
+		"year": "2014",
+		"mon": "05",
+		"mday": "20",
+		"hour": "21",
+		"min": "53",
+		"tzname": "UTC"
+		},
+		"tempm":"25.0", "tempi":"77.0","dewptm":"10.0", "dewpti":"50.0","hum":"39","wspdm":"-9999.0", "wspdi":"-9999.0","wgustm":"-9999.0", "wgusti":"-9999.0","wdird":"0","wdire":"North","vism":"16.1", "visi":"10.0","pressurem":"1009.9", "pressurei":"29.83","windchillm":"-999", "windchilli":"-999","heatindexm":"-9999", "heatindexi":"-9999","precipm":"-9999.00", "precipi":"-9999.00","conds":"Clear","icon":"clear","fog":"0","rain":"0","snow":"0","hail":"0","thunder":"0","tornado":"0","metar":"METAR KMIC 202153Z 10SM CLR 25/10 A2983 RMK AO2 SLP099 T02500100" },
+		{
+		"date": {
+		"pretty": "5:53 PM CDT on May 20, 2014",
+		"year": "2014",
+		"mon": "05",
+		"mday": "20",
+		"hour": "17",
+		"min": "53",
+		"tzname": "America/Chicago"
+		},
+		"utcdate": {
+		"pretty": "10:53 PM GMT on May 20, 2014",
+		"year": "2014",
+		"mon": "05",
+		"mday": "20",
+		"hour": "22",
+		"min": "53",
+		"tzname": "UTC"
+		},
+		"tempm":"24.4", "tempi":"75.9","dewptm":"9.4", "dewpti":"48.9","hum":"38","wspdm":"13.0", "wspdi":"8.1","wgustm":"-9999.0", "wgusti":"-9999.0","wdird":"260","wdire":"West","vism":"16.1", "visi":"10.0","pressurem":"1010.0", "pressurei":"29.83","windchillm":"-999", "windchilli":"-999","heatindexm":"-9999", "heatindexi":"-9999","precipm":"-9999.00", "precipi":"-9999.00","conds":"Clear","icon":"clear","fog":"0","rain":"0","snow":"0","hail":"0","thunder":"0","tornado":"0","metar":"METAR KMIC 202253Z 26007KT 10SM CLR 24/09 A2983 RMK AO2 SLP100 T02440094" },
+		{
+		"date": {
+		"pretty": "6:53 PM CDT on May 20, 2014",
+		"year": "2014",
+		"mon": "05",
+		"mday": "20",
+		"hour": "18",
+		"min": "53",
+		"tzname": "America/Chicago"
+		},
+		"utcdate": {
+		"pretty": "11:53 PM GMT on May 20, 2014",
+		"year": "2014",
+		"mon": "05",
+		"mday": "20",
+		"hour": "23",
+		"min": "53",
+		"tzname": "UTC"
+		},
+		"tempm":"24.4", "tempi":"75.9","dewptm":"10.0", "dewpti":"50.0","hum":"40","wspdm":"5.6", "wspdi":"3.5","wgustm":"-9999.0", "wgusti":"-9999.0","wdird":"0","wdire":"Variable","vism":"16.1", "visi":"10.0","pressurem":"1009.4", "pressurei":"29.81","windchillm":"-999", "windchilli":"-999","heatindexm":"-9999", "heatindexi":"-9999","precipm":"-9999.00", "precipi":"-9999.00","conds":"Clear","icon":"clear","fog":"0","rain":"0","snow":"0","hail":"0","thunder":"0","tornado":"0","metar":"METAR KMIC 202353Z VRB03KT 10SM CLR 24/10 A2981 RMK AO2 SLP094 T02440100 10256 20183 58002" },
+		{
+		"date": {
+		"pretty": "7:53 PM CDT on May 20, 2014",
+		"year": "2014",
+		"mon": "05",
+		"mday": "20",
+		"hour": "19",
+		"min": "53",
+		"tzname": "America/Chicago"
+		},
+		"utcdate": {
+		"pretty": "12:53 AM GMT on May 21, 2014",
+		"year": "2014",
+		"mon": "05",
+		"mday": "21",
+		"hour": "00",
+		"min": "53",
+		"tzname": "UTC"
+		},
+		"tempm":"23.3", "tempi":"73.9","dewptm":"10.0", "dewpti":"50.0","hum":"43","wspdm":"7.4", "wspdi":"4.6","wgustm":"-9999.0", "wgusti":"-9999.0","wdird":"220","wdire":"SW","vism":"16.1", "visi":"10.0","pressurem":"1009.4", "pressurei":"29.81","windchillm":"-999", "windchilli":"-999","heatindexm":"-9999", "heatindexi":"-9999","precipm":"-9999.00", "precipi":"-9999.00","conds":"Clear","icon":"clear","fog":"0","rain":"0","snow":"0","hail":"0","thunder":"0","tornado":"0","metar":"METAR KMIC 210053Z 22004KT 10SM CLR 23/10 A2981 RMK AO2 SLP094 T02330100" },
+		{
+		"date": {
+		"pretty": "8:53 PM CDT on May 20, 2014",
+		"year": "2014",
+		"mon": "05",
+		"mday": "20",
+		"hour": "20",
+		"min": "53",
+		"tzname": "America/Chicago"
+		},
+		"utcdate": {
+		"pretty": "1:53 AM GMT on May 21, 2014",
+		"year": "2014",
+		"mon": "05",
+		"mday": "21",
+		"hour": "01",
+		"min": "53",
+		"tzname": "UTC"
+		},
+		"tempm":"21.7", "tempi":"71.1","dewptm":"10.0", "dewpti":"50.0","hum":"47","wspdm":"5.6", "wspdi":"3.5","wgustm":"-9999.0", "wgusti":"-9999.0","wdird":"190","wdire":"South","vism":"16.1", "visi":"10.0","pressurem":"1009.6", "pressurei":"29.82","windchillm":"-999", "windchilli":"-999","heatindexm":"-9999", "heatindexi":"-9999","precipm":"-9999.00", "precipi":"-9999.00","conds":"Clear","icon":"clear","fog":"0","rain":"0","snow":"0","hail":"0","thunder":"0","tornado":"0","metar":"METAR KMIC 210153Z 19003KT 10SM CLR 22/10 A2982 RMK AO2 SLP096 T02170100" },
+		{
+		"date": {
+		"pretty": "9:53 PM CDT on May 20, 2014",
+		"year": "2014",
+		"mon": "05",
+		"mday": "20",
+		"hour": "21",
+		"min": "53",
+		"tzname": "America/Chicago"
+		},
+		"utcdate": {
+		"pretty": "2:53 AM GMT on May 21, 2014",
+		"year": "2014",
+		"mon": "05",
+		"mday": "21",
+		"hour": "02",
+		"min": "53",
+		"tzname": "UTC"
+		},
+		"tempm":"20.0", "tempi":"68.0","dewptm":"14.4", "dewpti":"57.9","hum":"70","wspdm":"11.1", "wspdi":"6.9","wgustm":"-9999.0", "wgusti":"-9999.0","wdird":"200","wdire":"SSW","vism":"12.9", "visi":"8.0","pressurem":"1009.8", "pressurei":"29.82","windchillm":"-999", "windchilli":"-999","heatindexm":"-9999", "heatindexi":"-9999","precipm":"-9999.00", "precipi":"-9999.00","conds":"Clear","icon":"clear","fog":"0","rain":"0","snow":"0","hail":"0","thunder":"0","tornado":"0","metar":"METAR KMIC 210253Z AUTO 20006KT 8SM CLR 20/14 A2983 RMK AO2 SLP098 T02000144 53004" },
+		{
+		"date": {
+		"pretty": "10:53 PM CDT on May 20, 2014",
+		"year": "2014",
+		"mon": "05",
+		"mday": "20",
+		"hour": "22",
+		"min": "53",
+		"tzname": "America/Chicago"
+		},
+		"utcdate": {
+		"pretty": "3:53 AM GMT on May 21, 2014",
+		"year": "2014",
+		"mon": "05",
+		"mday": "21",
+		"hour": "03",
+		"min": "53",
+		"tzname": "UTC"
+		},
+		"tempm":"19.4", "tempi":"66.9","dewptm":"14.4", "dewpti":"57.9","hum":"73","wspdm":"7.4", "wspdi":"4.6","wgustm":"-9999.0", "wgusti":"-9999.0","wdird":"210","wdire":"SSW","vism":"12.9", "visi":"8.0","pressurem":"1010.0", "pressurei":"29.83","windchillm":"-999", "windchilli":"-999","heatindexm":"-9999", "heatindexi":"-9999","precipm":"-9999.00", "precipi":"-9999.00","conds":"Clear","icon":"clear","fog":"0","rain":"0","snow":"0","hail":"0","thunder":"0","tornado":"0","metar":"METAR KMIC 210353Z AUTO 21004KT 8SM CLR 19/14 A2983 RMK AO2 SLP100 T01940144" },
+		{
+		"date": {
+		"pretty": "11:53 PM CDT on May 20, 2014",
+		"year": "2014",
+		"mon": "05",
+		"mday": "20",
+		"hour": "23",
+		"min": "53",
+		"tzname": "America/Chicago"
+		},
+		"utcdate": {
+		"pretty": "4:53 AM GMT on May 21, 2014",
+		"year": "2014",
+		"mon": "05",
+		"mday": "21",
+		"hour": "04",
+		"min": "53",
+		"tzname": "UTC"
+		},
+		"tempm":"18.3", "tempi":"64.9","dewptm":"13.9", "dewpti":"57.0","hum":"75","wspdm":"9.3", "wspdi":"5.8","wgustm":"-9999.0", "wgusti":"-9999.0","wdird":"200","wdire":"SSW","vism":"12.9", "visi":"8.0","pressurem":"1009.8", "pressurei":"29.82","windchillm":"-999", "windchilli":"-999","heatindexm":"-9999", "heatindexi":"-9999","precipm":"-9999.00", "precipi":"-9999.00","conds":"Clear","icon":"clear","fog":"0","rain":"0","snow":"0","hail":"0","thunder":"0","tornado":"0","metar":"METAR KMIC 210453Z AUTO 20005KT 8SM CLR 18/14 A2982 RMK AO2 SLP098 T01830139" }
+		],
+		"dailysummary": [
+		{ "date": {
+		"pretty": "12:00 PM CDT on May 20, 2014",
+		"year": "2014",
+		"mon": "05",
+		"mday": "20",
+		"hour": "12",
+		"min": "00",
+		"tzname": "America/Chicago"
+		},
+		"fog":"0","rain":"0","snow":"0","snowfallm":"0.00", "snowfalli":"0.00","monthtodatesnowfallm":"", "monthtodatesnowfalli":"","since1julsnowfallm":"", "since1julsnowfalli":"","snowdepthm":"", "snowdepthi":"","hail":"0","thunder":"0","tornado":"0","meantempm":"18", "meantempi":"64","meandewptm":"11", "meandewpti":"52","meanpressurem":"1009", "meanpressurei":"29.81","meanwindspdm":"5", "meanwindspdi":"3","meanwdire":"","meanwdird":"214","meanvism":"7", "meanvisi":"4","humidity":"","maxtempm":"26", "maxtempi":"78","mintempm":"10", "mintempi":"50","maxhumidity":"97","minhumidity":"38","maxdewptm":"14", "maxdewpti":"58","mindewptm":"9", "mindewpti":"48","maxpressurem":"1012", "maxpressurei":"29.88","minpressurem":"1007", "minpressurei":"29.74","maxwspdm":"14", "maxwspdi":"9","minwspdm":"0", "minwspdi":"0","maxvism":"16", "maxvisi":"10","minvism":"1", "minvisi":"1","gdegreedays":"14","heatingdegreedays":"2","coolingdegreedays":"0","precipm":"0.00", "precipi":"0.00","precipsource":"","heatingdegreedaysnormal":"","monthtodateheatingdegreedays":"","monthtodateheatingdegreedaysnormal":"","since1sepheatingdegreedays":"","since1sepheatingdegreedaysnormal":"","since1julheatingdegreedays":"","since1julheatingdegreedaysnormal":"","coolingdegreedaysnormal":"","monthtodatecoolingdegreedays":"","monthtodatecoolingdegreedaysnormal":"","since1sepcoolingdegreedays":"","since1sepcoolingdegreedaysnormal":"","since1jancoolingdegreedays":"","since1jancoolingdegreedaysnormal":"" }
+		]
+	}
+}

@@ -1,0 +1,605 @@
+
+{
+  "response": {
+  "version":"0.1",
+  "termsofService":"http://www.wunderground.com/weather/api/d/terms.html",
+  "features": {
+  "history": 1
+  }
+	}
+		,
+	"history": {
+		"date": {
+		"pretty": "February 23, 2010",
+		"year": "2010",
+		"mon": "02",
+		"mday": "23",
+		"hour": "12",
+		"min": "00",
+		"tzname": "America/Chicago"
+		},
+		"utcdate": {
+		"pretty": "February 23, 2010",
+		"year": "2010",
+		"mon": "02",
+		"mday": "23",
+		"hour": "18",
+		"min": "00",
+		"tzname": "UTC"
+		},
+		"observations": [
+		{
+		"date": {
+		"pretty": "1:51 AM CST on February 23, 2010",
+		"year": "2010",
+		"mon": "02",
+		"mday": "23",
+		"hour": "01",
+		"min": "51",
+		"tzname": "America/Chicago"
+		},
+		"utcdate": {
+		"pretty": "7:51 AM GMT on February 23, 2010",
+		"year": "2010",
+		"mon": "02",
+		"mday": "23",
+		"hour": "07",
+		"min": "51",
+		"tzname": "UTC"
+		},
+		"tempm":"-1.7", "tempi":"28.9","dewptm":"-3.3", "dewpti":"26.1","hum":"89","wspdm":"5.6", "wspdi":"3.5","wgustm":"-9999.0", "wgusti":"-9999.0","wdird":"290","wdire":"WNW","vism":"16.1", "visi":"10.0","pressurem":"1011.5", "pressurei":"29.87","windchillm":"-3.8", "windchilli":"25.2","heatindexm":"-9999", "heatindexi":"-9999","precipm":"-9999.00", "precipi":"-9999.00","conds":"Overcast","icon":"cloudy","fog":"0","rain":"0","snow":"0","hail":"0","thunder":"0","tornado":"0","metar":"METAR KMDW 230751Z 29003KT 10SM FEW035 BKN070 OVC110 M02/M03 A2984 RMK AO2 SLP115 T10171033" },
+		{
+		"date": {
+		"pretty": "2:51 AM CST on February 23, 2010",
+		"year": "2010",
+		"mon": "02",
+		"mday": "23",
+		"hour": "02",
+		"min": "51",
+		"tzname": "America/Chicago"
+		},
+		"utcdate": {
+		"pretty": "8:51 AM GMT on February 23, 2010",
+		"year": "2010",
+		"mon": "02",
+		"mday": "23",
+		"hour": "08",
+		"min": "51",
+		"tzname": "UTC"
+		},
+		"tempm":"-1.1", "tempi":"30.0","dewptm":"-3.3", "dewpti":"26.1","hum":"85","wspdm":"7.4", "wspdi":"4.6","wgustm":"-9999.0", "wgusti":"-9999.0","wdird":"300","wdire":"WNW","vism":"11.3", "visi":"7.0","pressurem":"1011.1", "pressurei":"29.86","windchillm":"-3.8", "windchilli":"25.2","heatindexm":"-9999", "heatindexi":"-9999","precipm":"0.0", "precipi":"0.00","conds":"Light Snow","icon":"snow","fog":"0","rain":"0","snow":"1","hail":"0","thunder":"0","tornado":"0","metar":"METAR KMDW 230851Z 30004KT 7SM -SN FEW038 BKN050 OVC075 M01/M03 A2983 RMK AO2 SNB47 SLP111 P0000 60000 T10111033 58001" },
+		{
+		"date": {
+		"pretty": "3:51 AM CST on February 23, 2010",
+		"year": "2010",
+		"mon": "02",
+		"mday": "23",
+		"hour": "03",
+		"min": "51",
+		"tzname": "America/Chicago"
+		},
+		"utcdate": {
+		"pretty": "9:51 AM GMT on February 23, 2010",
+		"year": "2010",
+		"mon": "02",
+		"mday": "23",
+		"hour": "09",
+		"min": "51",
+		"tzname": "UTC"
+		},
+		"tempm":"-1.1", "tempi":"30.0","dewptm":"-3.9", "dewpti":"25.0","hum":"82","wspdm":"9.3", "wspdi":"5.8","wgustm":"-9999.0", "wgusti":"-9999.0","wdird":"320","wdire":"NW","vism":"11.3", "visi":"7.0","pressurem":"1011.3", "pressurei":"29.87","windchillm":"-4.4", "windchilli":"24.1","heatindexm":"-9999", "heatindexi":"-9999","precipm":"0.0", "precipi":"0.00","conds":"Light Snow","icon":"snow","fog":"0","rain":"0","snow":"1","hail":"0","thunder":"0","tornado":"0","metar":"METAR KMDW 230951Z 32005KT 7SM -SN SCT024 BKN055 OVC075 M01/M04 A2983 RMK AO2 SLP113 P0000 T10111039" },
+		{
+		"date": {
+		"pretty": "4:05 AM CST on February 23, 2010",
+		"year": "2010",
+		"mon": "02",
+		"mday": "23",
+		"hour": "04",
+		"min": "05",
+		"tzname": "America/Chicago"
+		},
+		"utcdate": {
+		"pretty": "10:05 AM GMT on February 23, 2010",
+		"year": "2010",
+		"mon": "02",
+		"mday": "23",
+		"hour": "10",
+		"min": "05",
+		"tzname": "UTC"
+		},
+		"tempm":"-2.0", "tempi":"28.4","dewptm":"-4.0", "dewpti":"24.8","hum":"86","wspdm":"11.1", "wspdi":"6.9","wgustm":"-9999.0", "wgusti":"-9999.0","wdird":"310","wdire":"NW","vism":"6.4", "visi":"4.0","pressurem":"1010.0", "pressurei":"29.83","windchillm":"-6.0", "windchilli":"21.2","heatindexm":"-9999", "heatindexi":"-9999","precipm":"0.0", "precipi":"0.00","conds":"Light Snow","icon":"snow","fog":"0","rain":"0","snow":"1","hail":"0","thunder":"0","tornado":"0","metar":"SPECI KMDW 231005Z 31006KT 4SM -SN BR BKN024 OVC036 M02/M04 A2983 RMK AO2 P0000" },
+		{
+		"date": {
+		"pretty": "4:51 AM CST on February 23, 2010",
+		"year": "2010",
+		"mon": "02",
+		"mday": "23",
+		"hour": "04",
+		"min": "51",
+		"tzname": "America/Chicago"
+		},
+		"utcdate": {
+		"pretty": "10:51 AM GMT on February 23, 2010",
+		"year": "2010",
+		"mon": "02",
+		"mday": "23",
+		"hour": "10",
+		"min": "51",
+		"tzname": "UTC"
+		},
+		"tempm":"-1.7", "tempi":"28.9","dewptm":"-3.9", "dewpti":"25.0","hum":"85","wspdm":"7.4", "wspdi":"4.6","wgustm":"-9999.0", "wgusti":"-9999.0","wdird":"300","wdire":"WNW","vism":"9.7", "visi":"6.0","pressurem":"1011.6", "pressurei":"29.88","windchillm":"-4.5", "windchilli":"23.9","heatindexm":"-9999", "heatindexi":"-9999","precipm":"0.0", "precipi":"0.00","conds":"Light Snow","icon":"snow","fog":"0","rain":"0","snow":"1","hail":"0","thunder":"0","tornado":"0","metar":"METAR KMDW 231051Z 30004KT 6SM -SN BR SCT020 BKN050 OVC080 M02/M04 A2984 RMK AO2 SLP116 P0000 T10171039" },
+		{
+		"date": {
+		"pretty": "5:51 AM CST on February 23, 2010",
+		"year": "2010",
+		"mon": "02",
+		"mday": "23",
+		"hour": "05",
+		"min": "51",
+		"tzname": "America/Chicago"
+		},
+		"utcdate": {
+		"pretty": "11:51 AM GMT on February 23, 2010",
+		"year": "2010",
+		"mon": "02",
+		"mday": "23",
+		"hour": "11",
+		"min": "51",
+		"tzname": "UTC"
+		},
+		"tempm":"-1.7", "tempi":"28.9","dewptm":"-3.9", "dewpti":"25.0","hum":"85","wspdm":"0.0", "wspdi":"0.0","wgustm":"-9999.0", "wgusti":"-9999.0","wdird":"0","wdire":"North","vism":"8.0", "visi":"5.0","pressurem":"1012.0", "pressurei":"29.89","windchillm":"-999", "windchilli":"-999","heatindexm":"-9999", "heatindexi":"-9999","precipm":"0.0", "precipi":"0.00","conds":"Light Snow","icon":"snow","fog":"0","rain":"0","snow":"1","hail":"0","thunder":"0","tornado":"0","metar":"METAR KMDW 231151Z 00000KT 5SM -SN BR FEW022 BKN050 OVC080 M02/M04 A2985 RMK AO2 SLP120 4/002 P0000 60000 T10171039 11011 21017 53008" },
+		{
+		"date": {
+		"pretty": "6:51 AM CST on February 23, 2010",
+		"year": "2010",
+		"mon": "02",
+		"mday": "23",
+		"hour": "06",
+		"min": "51",
+		"tzname": "America/Chicago"
+		},
+		"utcdate": {
+		"pretty": "12:51 PM GMT on February 23, 2010",
+		"year": "2010",
+		"mon": "02",
+		"mday": "23",
+		"hour": "12",
+		"min": "51",
+		"tzname": "UTC"
+		},
+		"tempm":"-1.7", "tempi":"28.9","dewptm":"-3.9", "dewpti":"25.0","hum":"85","wspdm":"5.6", "wspdi":"3.5","wgustm":"-9999.0", "wgusti":"-9999.0","wdird":"300","wdire":"WNW","vism":"9.7", "visi":"6.0","pressurem":"1012.4", "pressurei":"29.90","windchillm":"-3.8", "windchilli":"25.2","heatindexm":"-9999", "heatindexi":"-9999","precipm":"0.0", "precipi":"0.00","conds":"Light Snow","icon":"snow","fog":"0","rain":"0","snow":"1","hail":"0","thunder":"0","tornado":"0","metar":"METAR KMDW 231251Z 30003KT 6SM -SN BR FEW025 OVC080 M02/M04 A2986 RMK AO2 SLP124 P0000 T10171039" },
+		{
+		"date": {
+		"pretty": "7:51 AM CST on February 23, 2010",
+		"year": "2010",
+		"mon": "02",
+		"mday": "23",
+		"hour": "07",
+		"min": "51",
+		"tzname": "America/Chicago"
+		},
+		"utcdate": {
+		"pretty": "1:51 PM GMT on February 23, 2010",
+		"year": "2010",
+		"mon": "02",
+		"mday": "23",
+		"hour": "13",
+		"min": "51",
+		"tzname": "UTC"
+		},
+		"tempm":"-1.1", "tempi":"30.0","dewptm":"-3.3", "dewpti":"26.1","hum":"85","wspdm":"5.6", "wspdi":"3.5","wgustm":"-9999.0", "wgusti":"-9999.0","wdird":"280","wdire":"West","vism":"9.7", "visi":"6.0","pressurem":"1012.9", "pressurei":"29.91","windchillm":"-3.1", "windchilli":"26.5","heatindexm":"-9999", "heatindexi":"-9999","precipm":"0.0", "precipi":"0.00","conds":"Light Snow","icon":"snow","fog":"0","rain":"0","snow":"1","hail":"0","thunder":"0","tornado":"0","metar":"METAR KMDW 231351Z 28003KT 6SM -SN BR FEW025 OVC075 M01/M03 A2988 RMK AO2 SLP129 P0000 T10111033" },
+		{
+		"date": {
+		"pretty": "8:51 AM CST on February 23, 2010",
+		"year": "2010",
+		"mon": "02",
+		"mday": "23",
+		"hour": "08",
+		"min": "51",
+		"tzname": "America/Chicago"
+		},
+		"utcdate": {
+		"pretty": "2:51 PM GMT on February 23, 2010",
+		"year": "2010",
+		"mon": "02",
+		"mday": "23",
+		"hour": "14",
+		"min": "51",
+		"tzname": "UTC"
+		},
+		"tempm":"-1.1", "tempi":"30.0","dewptm":"-3.9", "dewpti":"25.0","hum":"82","wspdm":"7.4", "wspdi":"4.6","wgustm":"-9999.0", "wgusti":"-9999.0","wdird":"280","wdire":"West","vism":"11.3", "visi":"7.0","pressurem":"1012.9", "pressurei":"29.91","windchillm":"-3.8", "windchilli":"25.2","heatindexm":"-9999", "heatindexi":"-9999","precipm":"0.0", "precipi":"0.00","conds":"Overcast","icon":"cloudy","fog":"0","rain":"0","snow":"0","hail":"0","thunder":"0","tornado":"0","metar":"METAR KMDW 231451Z 28004KT 7SM OVC080 M01/M04 A2988 RMK AO2 SNE10 SLP129 P0000 60000 T10111039 51009" },
+		{
+		"date": {
+		"pretty": "9:51 AM CST on February 23, 2010",
+		"year": "2010",
+		"mon": "02",
+		"mday": "23",
+		"hour": "09",
+		"min": "51",
+		"tzname": "America/Chicago"
+		},
+		"utcdate": {
+		"pretty": "3:51 PM GMT on February 23, 2010",
+		"year": "2010",
+		"mon": "02",
+		"mday": "23",
+		"hour": "15",
+		"min": "51",
+		"tzname": "UTC"
+		},
+		"tempm":"-0.6", "tempi":"30.9","dewptm":"-3.9", "dewpti":"25.0","hum":"79","wspdm":"7.4", "wspdi":"4.6","wgustm":"-9999.0", "wgusti":"-9999.0","wdird":"280","wdire":"West","vism":"16.1", "visi":"10.0","pressurem":"1012.9", "pressurei":"29.91","windchillm":"-3.2", "windchilli":"26.2","heatindexm":"-9999", "heatindexi":"-9999","precipm":"0.0", "precipi":"0.00","conds":"Overcast","icon":"cloudy","fog":"0","rain":"0","snow":"0","hail":"0","thunder":"0","tornado":"0","metar":"METAR KMDW 231551Z 28004KT 10SM OVC080 M01/M04 A2988 RMK AO2 SNB14E28 SLP129 P0000 T10061039" },
+		{
+		"date": {
+		"pretty": "10:39 AM CST on February 23, 2010",
+		"year": "2010",
+		"mon": "02",
+		"mday": "23",
+		"hour": "10",
+		"min": "39",
+		"tzname": "America/Chicago"
+		},
+		"utcdate": {
+		"pretty": "4:39 PM GMT on February 23, 2010",
+		"year": "2010",
+		"mon": "02",
+		"mday": "23",
+		"hour": "16",
+		"min": "39",
+		"tzname": "UTC"
+		},
+		"tempm":"0.0", "tempi":"32.0","dewptm":"-4.0", "dewpti":"24.8","hum":"75","wspdm":"11.1", "wspdi":"6.9","wgustm":"-9999.0", "wgusti":"-9999.0","wdird":"260","wdire":"West","vism":"16.1", "visi":"10.0","pressurem":"1011.7", "pressurei":"29.88","windchillm":"-3.6", "windchilli":"25.6","heatindexm":"-9999", "heatindexi":"-9999","precipm":"-9999.00", "precipi":"-9999.00","conds":"Overcast","icon":"cloudy","fog":"0","rain":"0","snow":"0","hail":"0","thunder":"0","tornado":"0","metar":"SPECI KMDW 231639Z 26006KT 10SM BKN020 BKN049 OVC080 00/M04 A2988 RMK AO2" },
+		{
+		"date": {
+		"pretty": "10:51 AM CST on February 23, 2010",
+		"year": "2010",
+		"mon": "02",
+		"mday": "23",
+		"hour": "10",
+		"min": "51",
+		"tzname": "America/Chicago"
+		},
+		"utcdate": {
+		"pretty": "4:51 PM GMT on February 23, 2010",
+		"year": "2010",
+		"mon": "02",
+		"mday": "23",
+		"hour": "16",
+		"min": "51",
+		"tzname": "UTC"
+		},
+		"tempm":"0.0", "tempi":"32.0","dewptm":"-3.9", "dewpti":"25.0","hum":"75","wspdm":"11.1", "wspdi":"6.9","wgustm":"-9999.0", "wgusti":"-9999.0","wdird":"270","wdire":"West","vism":"16.1", "visi":"10.0","pressurem":"1012.9", "pressurei":"29.91","windchillm":"-3.6", "windchilli":"25.6","heatindexm":"-9999", "heatindexi":"-9999","precipm":"-9999.00", "precipi":"-9999.00","conds":"Overcast","icon":"cloudy","fog":"0","rain":"0","snow":"0","hail":"0","thunder":"0","tornado":"0","metar":"METAR KMDW 231651Z 27006KT 10SM BKN020 BKN049 OVC080 00/M04 A2988 RMK AO2 SLP129 T00001039" },
+		{
+		"date": {
+		"pretty": "11:51 AM CST on February 23, 2010",
+		"year": "2010",
+		"mon": "02",
+		"mday": "23",
+		"hour": "11",
+		"min": "51",
+		"tzname": "America/Chicago"
+		},
+		"utcdate": {
+		"pretty": "5:51 PM GMT on February 23, 2010",
+		"year": "2010",
+		"mon": "02",
+		"mday": "23",
+		"hour": "17",
+		"min": "51",
+		"tzname": "UTC"
+		},
+		"tempm":"0.0", "tempi":"32.0","dewptm":"-2.8", "dewpti":"27.0","hum":"82","wspdm":"7.4", "wspdi":"4.6","wgustm":"-9999.0", "wgusti":"-9999.0","wdird":"220","wdire":"SW","vism":"12.9", "visi":"8.0","pressurem":"1013.1", "pressurei":"29.92","windchillm":"-2.5", "windchilli":"27.5","heatindexm":"-9999", "heatindexi":"-9999","precipm":"0.0", "precipi":"0.00","conds":"Light Snow","icon":"snow","fog":"0","rain":"0","snow":"1","hail":"0","thunder":"0","tornado":"0","metar":"METAR KMDW 231751Z 22004KT 8SM -SN BKN013 OVC019 00/M03 A2988 RMK AO2 SNB37 SLP131 4/002 P0000 60000 T00001028 10000 21017 53002" },
+		{
+		"date": {
+		"pretty": "12:28 PM CST on February 23, 2010",
+		"year": "2010",
+		"mon": "02",
+		"mday": "23",
+		"hour": "12",
+		"min": "28",
+		"tzname": "America/Chicago"
+		},
+		"utcdate": {
+		"pretty": "6:28 PM GMT on February 23, 2010",
+		"year": "2010",
+		"mon": "02",
+		"mday": "23",
+		"hour": "18",
+		"min": "28",
+		"tzname": "UTC"
+		},
+		"tempm":"-1.0", "tempi":"30.2","dewptm":"-3.0", "dewpti":"26.6","hum":"86","wspdm":"13.0", "wspdi":"8.1","wgustm":"-9999.0", "wgusti":"-9999.0","wdird":"240","wdire":"WSW","vism":"6.4", "visi":"4.0","pressurem":"1011.4", "pressurei":"29.87","windchillm":"-5.2", "windchilli":"22.6","heatindexm":"-9999", "heatindexi":"-9999","precipm":"0.0", "precipi":"0.00","conds":"Light Snow","icon":"snow","fog":"0","rain":"0","snow":"1","hail":"0","thunder":"0","tornado":"0","metar":"SPECI KMDW 231828Z 24007KT 4SM -SN BR OVC017 M01/M03 A2987 RMK AO2 P0000" },
+		{
+		"date": {
+		"pretty": "12:51 PM CST on February 23, 2010",
+		"year": "2010",
+		"mon": "02",
+		"mday": "23",
+		"hour": "12",
+		"min": "51",
+		"tzname": "America/Chicago"
+		},
+		"utcdate": {
+		"pretty": "6:51 PM GMT on February 23, 2010",
+		"year": "2010",
+		"mon": "02",
+		"mday": "23",
+		"hour": "18",
+		"min": "51",
+		"tzname": "UTC"
+		},
+		"tempm":"0.0", "tempi":"32.0","dewptm":"-2.8", "dewpti":"27.0","hum":"82","wspdm":"11.1", "wspdi":"6.9","wgustm":"-9999.0", "wgusti":"-9999.0","wdird":"240","wdire":"WSW","vism":"4.8", "visi":"3.0","pressurem":"1012.6", "pressurei":"29.91","windchillm":"-3.6", "windchilli":"25.6","heatindexm":"-9999", "heatindexi":"-9999","precipm":"0.0", "precipi":"0.00","conds":"Light Snow","icon":"snow","fog":"0","rain":"0","snow":"1","hail":"0","thunder":"0","tornado":"0","metar":"METAR KMDW 231851Z 24006KT 3SM -SN BR OVC017 00/M03 A2987 RMK AO2 SLP126 P0000 T00001028" },
+		{
+		"date": {
+		"pretty": "1:51 PM CST on February 23, 2010",
+		"year": "2010",
+		"mon": "02",
+		"mday": "23",
+		"hour": "13",
+		"min": "51",
+		"tzname": "America/Chicago"
+		},
+		"utcdate": {
+		"pretty": "7:51 PM GMT on February 23, 2010",
+		"year": "2010",
+		"mon": "02",
+		"mday": "23",
+		"hour": "19",
+		"min": "51",
+		"tzname": "UTC"
+		},
+		"tempm":"0.0", "tempi":"32.0","dewptm":"-2.8", "dewpti":"27.0","hum":"82","wspdm":"18.5", "wspdi":"11.5","wgustm":"-9999.0", "wgusti":"-9999.0","wdird":"250","wdire":"WSW","vism":"8.0", "visi":"5.0","pressurem":"1012.4", "pressurei":"29.90","windchillm":"-5.0", "windchilli":"23.0","heatindexm":"-9999", "heatindexi":"-9999","precipm":"0.0", "precipi":"0.00","conds":"Haze","icon":"hazy","fog":"0","rain":"0","snow":"0","hail":"0","thunder":"0","tornado":"0","metar":"METAR KMDW 231951Z 25010KT 5SM HZ SCT014 BKN021 OVC027 00/M03 A2986 RMK AO2 SNE16 SLP124 P0000 T00001028" },
+		{
+		"date": {
+		"pretty": "2:51 PM CST on February 23, 2010",
+		"year": "2010",
+		"mon": "02",
+		"mday": "23",
+		"hour": "14",
+		"min": "51",
+		"tzname": "America/Chicago"
+		},
+		"utcdate": {
+		"pretty": "8:51 PM GMT on February 23, 2010",
+		"year": "2010",
+		"mon": "02",
+		"mday": "23",
+		"hour": "20",
+		"min": "51",
+		"tzname": "UTC"
+		},
+		"tempm":"0.0", "tempi":"32.0","dewptm":"-4.4", "dewpti":"24.1","hum":"73","wspdm":"13.0", "wspdi":"8.1","wgustm":"-9999.0", "wgusti":"-9999.0","wdird":"240","wdire":"WSW","vism":"11.3", "visi":"7.0","pressurem":"1012.4", "pressurei":"29.90","windchillm":"-4.0", "windchilli":"24.8","heatindexm":"-9999", "heatindexi":"-9999","precipm":"-9999.00", "precipi":"-9999.00","conds":"Mostly Cloudy","icon":"mostlycloudy","fog":"0","rain":"0","snow":"0","hail":"0","thunder":"0","tornado":"0","metar":"METAR KMDW 232051Z 24007KT 7SM BKN019 BKN024 00/M04 A2986 RMK AO2 SLP124 60000 T00001044 55007" },
+		{
+		"date": {
+		"pretty": "3:51 PM CST on February 23, 2010",
+		"year": "2010",
+		"mon": "02",
+		"mday": "23",
+		"hour": "15",
+		"min": "51",
+		"tzname": "America/Chicago"
+		},
+		"utcdate": {
+		"pretty": "9:51 PM GMT on February 23, 2010",
+		"year": "2010",
+		"mon": "02",
+		"mday": "23",
+		"hour": "21",
+		"min": "51",
+		"tzname": "UTC"
+		},
+		"tempm":"0.0", "tempi":"32.0","dewptm":"-4.4", "dewpti":"24.1","hum":"73","wspdm":"18.5", "wspdi":"11.5","wgustm":"-9999.0", "wgusti":"-9999.0","wdird":"240","wdire":"WSW","vism":"14.5", "visi":"9.0","pressurem":"1012.5", "pressurei":"29.90","windchillm":"-5.0", "windchilli":"23.0","heatindexm":"-9999", "heatindexi":"-9999","precipm":"-9999.00", "precipi":"-9999.00","conds":"Mostly Cloudy","icon":"mostlycloudy","fog":"0","rain":"0","snow":"0","hail":"0","thunder":"0","tornado":"0","metar":"METAR KMDW 232151Z 24010KT 9SM SCT021 SCT028 BKN120 BKN200 00/M04 A2986 RMK AO2 SLP125 T00001044" },
+		{
+		"date": {
+		"pretty": "4:51 PM CST on February 23, 2010",
+		"year": "2010",
+		"mon": "02",
+		"mday": "23",
+		"hour": "16",
+		"min": "51",
+		"tzname": "America/Chicago"
+		},
+		"utcdate": {
+		"pretty": "10:51 PM GMT on February 23, 2010",
+		"year": "2010",
+		"mon": "02",
+		"mday": "23",
+		"hour": "22",
+		"min": "51",
+		"tzname": "UTC"
+		},
+		"tempm":"-1.1", "tempi":"30.0","dewptm":"-6.7", "dewpti":"19.9","hum":"66","wspdm":"18.5", "wspdi":"11.5","wgustm":"-9999.0", "wgusti":"-9999.0","wdird":"250","wdire":"WSW","vism":"16.1", "visi":"10.0","pressurem":"1012.7", "pressurei":"29.91","windchillm":"-6.4", "windchilli":"20.5","heatindexm":"-9999", "heatindexi":"-9999","precipm":"-9999.00", "precipi":"-9999.00","conds":"Mostly Cloudy","icon":"mostlycloudy","fog":"0","rain":"0","snow":"0","hail":"0","thunder":"0","tornado":"0","metar":"METAR KMDW 232251Z 25010KT 10SM FEW024 SCT110 BKN200 M01/M07 A2987 RMK AO2 SLP127 T10111067" },
+		{
+		"date": {
+		"pretty": "5:51 PM CST on February 23, 2010",
+		"year": "2010",
+		"mon": "02",
+		"mday": "23",
+		"hour": "17",
+		"min": "51",
+		"tzname": "America/Chicago"
+		},
+		"utcdate": {
+		"pretty": "11:51 PM GMT on February 23, 2010",
+		"year": "2010",
+		"mon": "02",
+		"mday": "23",
+		"hour": "23",
+		"min": "51",
+		"tzname": "UTC"
+		},
+		"tempm":"-2.2", "tempi":"28.0","dewptm":"-7.2", "dewpti":"19.0","hum":"69","wspdm":"13.0", "wspdi":"8.1","wgustm":"-9999.0", "wgusti":"-9999.0","wdird":"240","wdire":"WSW","vism":"16.1", "visi":"10.0","pressurem":"1013.1", "pressurei":"29.92","windchillm":"-6.7", "windchilli":"20.0","heatindexm":"-9999", "heatindexi":"-9999","precipm":"-9999.00", "precipi":"-9999.00","conds":"Mostly Cloudy","icon":"mostlycloudy","fog":"0","rain":"0","snow":"0","hail":"0","thunder":"0","tornado":"0","metar":"METAR KMDW 232351Z 24007KT 10SM SCT110 BKN200 M02/M07 A2988 RMK AO2 SLP131 4/002 60000 T10221072 10006 21022 53006" },
+		{
+		"date": {
+		"pretty": "6:51 PM CST on February 23, 2010",
+		"year": "2010",
+		"mon": "02",
+		"mday": "23",
+		"hour": "18",
+		"min": "51",
+		"tzname": "America/Chicago"
+		},
+		"utcdate": {
+		"pretty": "12:51 AM GMT on February 24, 2010",
+		"year": "2010",
+		"mon": "02",
+		"mday": "24",
+		"hour": "00",
+		"min": "51",
+		"tzname": "UTC"
+		},
+		"tempm":"-2.8", "tempi":"27.0","dewptm":"-7.8", "dewpti":"18.0","hum":"69","wspdm":"14.8", "wspdi":"9.2","wgustm":"-9999.0", "wgusti":"-9999.0","wdird":"250","wdire":"WSW","vism":"16.1", "visi":"10.0","pressurem":"1013.6", "pressurei":"29.94","windchillm":"-7.8", "windchilli":"18.0","heatindexm":"-9999", "heatindexi":"-9999","precipm":"-9999.00", "precipi":"-9999.00","conds":"Overcast","icon":"cloudy","fog":"0","rain":"0","snow":"0","hail":"0","thunder":"0","tornado":"0","metar":"METAR KMDW 240051Z 25008KT 10SM BKN120 OVC200 M03/M08 A2990 RMK AO2 SLP136 T10281078" },
+		{
+		"date": {
+		"pretty": "7:51 PM CST on February 23, 2010",
+		"year": "2010",
+		"mon": "02",
+		"mday": "23",
+		"hour": "19",
+		"min": "51",
+		"tzname": "America/Chicago"
+		},
+		"utcdate": {
+		"pretty": "1:51 AM GMT on February 24, 2010",
+		"year": "2010",
+		"mon": "02",
+		"mday": "24",
+		"hour": "01",
+		"min": "51",
+		"tzname": "UTC"
+		},
+		"tempm":"-2.8", "tempi":"27.0","dewptm":"-8.9", "dewpti":"16.0","hum":"63","wspdm":"20.4", "wspdi":"12.7","wgustm":"-9999.0", "wgusti":"-9999.0","wdird":"270","wdire":"West","vism":"16.1", "visi":"10.0","pressurem":"1013.6", "pressurei":"29.94","windchillm":"-8.8", "windchilli":"16.1","heatindexm":"-9999", "heatindexi":"-9999","precipm":"-9999.00", "precipi":"-9999.00","conds":"Overcast","icon":"cloudy","fog":"0","rain":"0","snow":"0","hail":"0","thunder":"0","tornado":"0","metar":"METAR KMDW 240151Z 27011KT 10SM BKN065 BKN110 OVC200 M03/M09 A2989 RMK AO2 SLP136 T10281089" },
+		{
+		"date": {
+		"pretty": "8:51 PM CST on February 23, 2010",
+		"year": "2010",
+		"mon": "02",
+		"mday": "23",
+		"hour": "20",
+		"min": "51",
+		"tzname": "America/Chicago"
+		},
+		"utcdate": {
+		"pretty": "2:51 AM GMT on February 24, 2010",
+		"year": "2010",
+		"mon": "02",
+		"mday": "24",
+		"hour": "02",
+		"min": "51",
+		"tzname": "UTC"
+		},
+		"tempm":"-3.3", "tempi":"26.1","dewptm":"-7.8", "dewpti":"18.0","hum":"71","wspdm":"18.5", "wspdi":"11.5","wgustm":"-9999.0", "wgusti":"-9999.0","wdird":"270","wdire":"West","vism":"16.1", "visi":"10.0","pressurem":"1013.7", "pressurei":"29.94","windchillm":"-9.1", "windchilli":"15.6","heatindexm":"-9999", "heatindexi":"-9999","precipm":"-9999.00", "precipi":"-9999.00","conds":"Overcast","icon":"cloudy","fog":"0","rain":"0","snow":"0","hail":"0","thunder":"0","tornado":"0","metar":"METAR KMDW 240251Z 27010KT 10SM BKN060 OVC110 M03/M08 A2990 RMK AO2 SLP137 T10331078 51006" },
+		{
+		"date": {
+		"pretty": "9:17 PM CST on February 23, 2010",
+		"year": "2010",
+		"mon": "02",
+		"mday": "23",
+		"hour": "21",
+		"min": "17",
+		"tzname": "America/Chicago"
+		},
+		"utcdate": {
+		"pretty": "3:17 AM GMT on February 24, 2010",
+		"year": "2010",
+		"mon": "02",
+		"mday": "24",
+		"hour": "03",
+		"min": "17",
+		"tzname": "UTC"
+		},
+		"tempm":"-3.0", "tempi":"26.6","dewptm":"-8.0", "dewpti":"17.6","hum":"69","wspdm":"11.1", "wspdi":"6.9","wgustm":"-9999.0", "wgusti":"-9999.0","wdird":"250","wdire":"WSW","vism":"16.1", "visi":"10.0","pressurem":"1012.4", "pressurei":"29.90","windchillm":"-7.2", "windchilli":"19.1","heatindexm":"-9999", "heatindexi":"-9999","precipm":"-9999.00", "precipi":"-9999.00","conds":"Overcast","icon":"cloudy","fog":"0","rain":"0","snow":"0","hail":"0","thunder":"0","tornado":"0","metar":"SPECI KMDW 240317Z 25006KT 10SM BKN020 OVC060 M03/M08 A2990 RMK AO2" },
+		{
+		"date": {
+		"pretty": "9:51 PM CST on February 23, 2010",
+		"year": "2010",
+		"mon": "02",
+		"mday": "23",
+		"hour": "21",
+		"min": "51",
+		"tzname": "America/Chicago"
+		},
+		"utcdate": {
+		"pretty": "3:51 AM GMT on February 24, 2010",
+		"year": "2010",
+		"mon": "02",
+		"mday": "24",
+		"hour": "03",
+		"min": "51",
+		"tzname": "UTC"
+		},
+		"tempm":"-3.3", "tempi":"26.1","dewptm":"-7.2", "dewpti":"19.0","hum":"75","wspdm":"14.8", "wspdi":"9.2","wgustm":"-9999.0", "wgusti":"-9999.0","wdird":"240","wdire":"WSW","vism":"14.5", "visi":"9.0","pressurem":"1013.9", "pressurei":"29.94","windchillm":"-8.4", "windchilli":"16.8","heatindexm":"-9999", "heatindexi":"-9999","precipm":"0.0", "precipi":"0.00","conds":"Light Snow","icon":"snow","fog":"0","rain":"0","snow":"1","hail":"0","thunder":"0","tornado":"0","metar":"METAR KMDW 240351Z 24008KT 9SM -SN BKN020 OVC065 M03/M07 A2990 RMK AO2 SNB50 SLP139 P0000 T10331072" },
+		{
+		"date": {
+		"pretty": "10:31 PM CST on February 23, 2010",
+		"year": "2010",
+		"mon": "02",
+		"mday": "23",
+		"hour": "22",
+		"min": "31",
+		"tzname": "America/Chicago"
+		},
+		"utcdate": {
+		"pretty": "4:31 AM GMT on February 24, 2010",
+		"year": "2010",
+		"mon": "02",
+		"mday": "24",
+		"hour": "04",
+		"min": "31",
+		"tzname": "UTC"
+		},
+		"tempm":"-4.0", "tempi":"24.8","dewptm":"-8.0", "dewpti":"17.6","hum":"74","wspdm":"18.5", "wspdi":"11.5","wgustm":"-9999.0", "wgusti":"-9999.0","wdird":"250","wdire":"WSW","vism":"9.7", "visi":"6.0","pressurem":"1012.4", "pressurei":"29.90","windchillm":"-10.0", "windchilli":"14.0","heatindexm":"-9999", "heatindexi":"-9999","precipm":"0.0", "precipi":"0.00","conds":"Light Snow","icon":"snow","fog":"0","rain":"0","snow":"1","hail":"0","thunder":"0","tornado":"0","metar":"SPECI KMDW 240431Z 25010KT 6SM -SN SCT018 OVC065 M04/M08 A2990 RMK AO2 P0000" },
+		{
+		"date": {
+		"pretty": "10:51 PM CST on February 23, 2010",
+		"year": "2010",
+		"mon": "02",
+		"mday": "23",
+		"hour": "22",
+		"min": "51",
+		"tzname": "America/Chicago"
+		},
+		"utcdate": {
+		"pretty": "4:51 AM GMT on February 24, 2010",
+		"year": "2010",
+		"mon": "02",
+		"mday": "24",
+		"hour": "04",
+		"min": "51",
+		"tzname": "UTC"
+		},
+		"tempm":"-4.4", "tempi":"24.1","dewptm":"-8.3", "dewpti":"17.1","hum":"75","wspdm":"20.4", "wspdi":"12.7","wgustm":"-9999.0", "wgusti":"-9999.0","wdird":"260","wdire":"West","vism":"8.0", "visi":"5.0","pressurem":"1014.1", "pressurei":"29.95","windchillm":"-10.8", "windchilli":"12.5","heatindexm":"-9999", "heatindexi":"-9999","precipm":"0.0", "precipi":"0.00","conds":"Light Snow","icon":"snow","fog":"0","rain":"0","snow":"1","hail":"0","thunder":"0","tornado":"0","metar":"METAR KMDW 240451Z 26011KT 5SM -SN BKN018 OVC060 M04/M08 A2991 RMK AO2 SLP141 P0000 T10441083" },
+		{
+		"date": {
+		"pretty": "11:51 PM CST on February 23, 2010",
+		"year": "2010",
+		"mon": "02",
+		"mday": "23",
+		"hour": "23",
+		"min": "51",
+		"tzname": "America/Chicago"
+		},
+		"utcdate": {
+		"pretty": "5:51 AM GMT on February 24, 2010",
+		"year": "2010",
+		"mon": "02",
+		"mday": "24",
+		"hour": "05",
+		"min": "51",
+		"tzname": "UTC"
+		},
+		"tempm":"-5.0", "tempi":"23.0","dewptm":"-8.9", "dewpti":"16.0","hum":"74","wspdm":"16.7", "wspdi":"10.4","wgustm":"-9999.0", "wgusti":"-9999.0","wdird":"260","wdire":"West","vism":"8.0", "visi":"5.0","pressurem":"1014.0", "pressurei":"29.95","windchillm":"-10.9", "windchilli":"12.4","heatindexm":"-9999", "heatindexi":"-9999","precipm":"0.0", "precipi":"0.00","conds":"Light Snow","icon":"snow","fog":"0","rain":"0","snow":"1","hail":"0","thunder":"0","tornado":"0","metar":"METAR KMDW 240551Z 26009KT 5SM -SN BKN016 OVC060 M05/M09 A2991 RMK AO2 SLP140 4/002 P0000 60000 T10501089 11022 21050 400061050 50003" }
+		],
+		"dailysummary": [
+		{ "date": {
+		"pretty": "12:00 PM CST on February 23, 2010",
+		"year": "2010",
+		"mon": "02",
+		"mday": "23",
+		"hour": "12",
+		"min": "00",
+		"tzname": "America/Chicago"
+		},
+		"fog":"0","rain":"0","snow":"1","snowfallm":"0.00", "snowfalli":"0.00","monthtodatesnowfallm":"", "monthtodatesnowfalli":"","since1julsnowfallm":"", "since1julsnowfalli":"","snowdepthm":"5.08", "snowdepthi":"2.00","hail":"0","thunder":"0","tornado":"0","meantempm":"-2", "meantempi":"28","meandewptm":"-5", "meandewpti":"23","meanpressurem":"1012", "meanpressurei":"29.90","meanwindspdm":"10", "meanwindspdi":"6","meanwdire":"","meanwdird":"265","meanvism":"12", "meanvisi":"8","humidity":"","maxtempm":"0", "maxtempi":"32","mintempm":"-5", "mintempi":"23","maxhumidity":"89","minhumidity":"63","maxdewptm":"-3", "maxdewpti":"27","mindewptm":"-9", "mindewpti":"16","maxpressurem":"1014", "maxpressurei":"29.95","minpressurem":"1010", "minpressurei":"29.83","maxwspdm":"21", "maxwspdi":"13","minwspdm":"0", "minwspdi":"0","maxvism":"16", "maxvisi":"10","minvism":"5", "minvisi":"3","gdegreedays":"0","heatingdegreedays":"37","coolingdegreedays":"0","precipm":"0.00", "precipi":"0.00","precipsource":"","heatingdegreedaysnormal":"","monthtodateheatingdegreedays":"","monthtodateheatingdegreedaysnormal":"","since1sepheatingdegreedays":"","since1sepheatingdegreedaysnormal":"","since1julheatingdegreedays":"","since1julheatingdegreedaysnormal":"","coolingdegreedaysnormal":"","monthtodatecoolingdegreedays":"","monthtodatecoolingdegreedaysnormal":"","since1sepcoolingdegreedays":"","since1sepcoolingdegreedaysnormal":"","since1jancoolingdegreedays":"","since1jancoolingdegreedaysnormal":"" }
+		]
+	}
+}
